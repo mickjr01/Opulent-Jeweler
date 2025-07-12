@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Opulent Jewelers Pricing</title>
+  <title>Opulent Jewelers Final Diamond Prices</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 40px; }
-    th, td { border: 1px solid #999; padding: 8px 12px; text-align: center; }
-    th { background-color: #eee; }
-    h2 { margin-top: 50px; }
+    body { font-family: Arial, sans-serif; margin: 40px; background: #fafafa; color: #222; }
+    h1, h2 { color: #004080; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 40px; background: white; }
+    th, td { border: 1px solid #999; padding: 10px 15px; text-align: center; }
+    th { background-color: #e0e7f3; }
+    tr:hover { background-color: #f1f6fb; }
   </style>
 </head>
 <body>
@@ -17,48 +18,67 @@
 
   <h2>1. Polished Diamonds (With & Without Certificate)</h2>
   <table>
-    <tr>
-      <th>Carat</th>
-      <th>Clarity</th>
-      <th>With Certificate (Retail)</th>
-      <th>With Certificate (Wholesale)</th>
-      <th>Without Certificate (Retail)</th>
-      <th>Without Certificate (Wholesale)</th>
-    </tr>
-    <tr><td>0.5</td><td>SI1</td><td>$500</td><td>$400</td><td>$250</td><td>$200</td></tr>
-    <tr><td>1.0</td><td>SI1</td><td>$600</td><td>$480</td><td>$350</td><td>$280</td></tr>
-    <tr><td>1.5</td><td>SI1</td><td>$800</td><td>$640</td><td>$450</td><td>$360</td></tr>
-    <tr><td>2.0</td><td>SI1</td><td>$1,100</td><td>$880</td><td>$600</td><td>$480</td></tr>
-    <tr><td>3.0</td><td>SI1</td><td>$1,800</td><td>$1,440</td><td>$950</td><td>$760</td></tr>
-    <!-- Add more rows here as needed -->
+    <thead>
+      <tr>
+        <th>Carat</th>
+        <th>Clarity</th>
+        <th>With Certificate (Retail)</th>
+        <th>With Certificate (Wholesale)</th>
+        <th>Without Certificate (Retail)</th>
+        <th>Without Certificate (Wholesale)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>0.5</td><td>SI1</td><td>$500</td><td>$400</td><td>$250</td><td>$200</td></tr>
+      <tr><td>1.0</td><td>SI1</td><td>$600</td><td>$480</td><td>$350</td><td>$280</td></tr>
+      <tr><td>1.5</td><td>SI1</td><td>$800</td><td>$640</td><td>$450</td><td>$360</td></tr>
+      <tr><td>2.0</td><td>SI1</td><td>$1,100</td><td>$880</td><td>$600</td><td>$480</td></tr>
+      <tr><td>3.0</td><td>SI1</td><td>$1,800</td><td>$1,440</td><td>$950</td><td>$760</td></tr>
+
+      <tr><td>0.5</td><td>VS2</td><td>$400</td><td>$320</td><td>$300</td><td>$240</td></tr>
+      <tr><td>0.5</td><td>VS1</td><td>$450</td><td>$360</td><td>$350</td><td>$280</td></tr>
+      <tr><td>0.5</td><td>VVS2</td><td>$500</td><td>$400</td><td>$400</td><td>$320</td></tr>
+      <tr><td>0.5</td><td>VVS1</td><td>$550</td><td>$440</td><td>$450</td><td>$360</td></tr>
+
+      <tr><td>1.0</td><td>VS2</td><td>$900</td><td>$720</td><td>$500</td><td>$400</td></tr>
+      <tr><td>1.0</td><td>VS1</td><td>$900</td><td>$720</td><td>$400</td><td>$320</td></tr>
+      <tr><td>1.0</td><td>VVS2</td><td>$1,000</td><td>$800</td><td>$600</td><td>$480</td></tr>
+      <tr><td>1.0</td><td>VVS1</td><td>$1,100</td><td>$880</td><td>$650</td><td>$520</td></tr>
+
+      <tr><td>1.5</td><td>VS2</td><td>$1,250</td><td>$1,000</td><td>$700</td><td>$560</td></tr>
+      <tr><td>1.5</td><td>VS1</td><td>$1,300</td><td>$1,040</td><td>$750</td><td>$600</td></tr>
+      <tr><td>1.5</td><td>VVS2</td><td>$1,400</td><td>$1,120</td><td>$850</td><td>$680</td></tr>
+      <tr><td>1.5</td><td>VVS1</td><td>$1,500</td><td>$1,200</td><td>$900</td><td>$720</td></tr>
+
+      <tr><td>2.0</td><td>VS2</td><td>$1,900</td><td>$1,520</td><td>$1,100</td><td>$880</td></tr>
+      <tr><td>2.0</td><td>VS1</td><td>$2,000</td><td>$1,600</td><td>$1,200</td><td>$960</td></tr>
+      <tr><td>2.0</td><td>VVS2</td><td>$2,200</td><td>$1,760</td><td>$1,400</td><td>$1,120</td></tr>
+      <tr><td>2.0</td><td>VVS1</td><td>$2,400</td><td>$1,920</td><td>$1,600</td><td>$1,280</td></tr>
+
+      <tr><td>3.0</td><td>VS2</td><td>$3,000</td><td>$2,400</td><td>$1,600</td><td>$1,280</td></tr>
+      <tr><td>3.0</td><td>VS1</td><td>$3,200</td><td>$2,560</td><td>$1,800</td><td>$1,440</td></tr>
+      <tr><td>3.0</td><td>VVS2</td><td>$3,500</td><td>$2,800</td><td>$2,000</td><td>$1,600</td></tr>
+      <tr><td>3.0</td><td>VVS1</td><td>$3,800</td><td>$3,040</td><td>$2,200</td><td>$1,760</td></tr>
+    </tbody>
   </table>
 
   <h2>2. Tiny Melee Diamonds (Polished) — Per Carat</h2>
   <table>
-    <tr>
-      <th>Size (mm)</th>
-      <th>VS Retail</th>
-      <th>VVS Retail</th>
-      <th>VS Wholesale (20% off)</th>
-      <th>VVS Wholesale (20% off)</th>
-    </tr>
-    <tr><td>0.7–0.9</td><td>$525</td><td>$575</td><td>$420</td><td>$460</td></tr>
-    <tr><td>1.0</td><td>$540</td><td>$590</td><td>$432</td><td>$472</td></tr>
-    <!-- Add all melee rows -->
-  </table>
-
-  <h2>3. Rough Uncut Lab-Grown CVD Diamonds (D-F Color, VS–VVS Clarity)</h2>
-  <table>
-    <tr>
-      <th>Size / Carat</th>
-      <th>Retail Price (each)</th>
-      <th>Wholesale Price (20% off)</th>
-    </tr>
-    <tr><td>4-5 ct (7x7 mm)</td><td>$600</td><td>$480</td></tr>
-    <tr><td>5-6 ct (8x8 mm)</td><td>$900</td><td>$720</td></tr>
-    <tr><td>7-8 ct (9x9 mm)</td><td>$1,500</td><td>$1,200</td></tr>
-    <tr><td>9.5-10 ct (10x10 mm)</td><td>$3,000</td><td>$2,400</td></tr>
-  </table>
-
-</body>
-</html>
+    <thead>
+      <tr>
+        <th>Size (mm)</th>
+        <th>VS Retail</th>
+        <th>VVS Retail</th>
+        <th>VS Wholesale (20% off)</th>
+        <th>VVS Wholesale (20% off)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>0.7–0.9</td><td>$525</td><td>$575</td><td>$420</td><td>$460</td></tr>
+      <tr><td>1.0</td><td>$540</td><td>$590</td><td>$432</td><td>$472</td></tr>
+      <tr><td>1.1</td><td>$550</td><td>$600</td><td>$440</td><td>$480</td></tr>
+      <tr><td>1.2</td><td>$565</td><td>$615</td><td>$452</td><td>$492</td></tr>
+      <tr><td>1.25</td><td>$580</td><td>$630</td><td>$464</td><td>$504</td></tr>
+      <tr><td>1.3</td><td>$600</td><td>$650</td><td>$480</td><td>$520</td></tr>
+      <tr><td>1.4</td><td>$615</td><td>$670</td><td>$492</td><td>$536</td></tr>
+      <tr><td>1.5</td><td>$635</td><td>$685</td><td>$508</td><td>$548</td></tr>
