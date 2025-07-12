@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Opulent Jewelers Pricing</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 40px; }
+    th, td { border: 1px solid #999; padding: 8px 12px; text-align: center; }
+    th { background-color: #eee; }
+    h2 { margin-top: 50px; }
+  </style>
+</head>
+<body>
+
+  <h1>Opulent Jewelers Final Diamond Prices</h1>
+
+  <h2>1. Polished Diamonds (With & Without Certificate)</h2>
+  <table>
+    <tr>
+      <th>Carat</th>
+      <th>Clarity</th>
+      <th>With Certificate (Retail)</th>
+      <th>With Certificate (Wholesale)</th>
+      <th>Without Certificate (Retail)</th>
+      <th>Without Certificate (Wholesale)</th>
+    </tr>
+    <tr><td>0.5</td><td>SI1</td><td>$500</td><td>$400</td><td>$250</td><td>$200</td></tr>
+    <tr><td>1.0</td><td>SI1</td><td>$600</td><td>$480</td><td>$350</td><td>$280</td></tr>
+    <tr><td>1.5</td><td>SI1</td><td>$800</td><td>$640</td><td>$450</td><td>$360</td></tr>
+    <tr><td>2.0</td><td>SI1</td><td>$1,100</td><td>$880</td><td>$600</td><td>$480</td></tr>
+    <tr><td>3.0</td><td>SI1</td><td>$1,800</td><td>$1,440</td><td>$950</td><td>$760</td></tr>
+    <!-- Add more rows here as needed -->
+  </table>
+
+  <h2>2. Tiny Melee Diamonds (Polished) — Per Carat</h2>
+  <table>
+    <tr>
+      <th>Size (mm)</th>
+      <th>VS Retail</th>
+      <th>VVS Retail</th>
+      <th>VS Wholesale (20% off)</th>
+      <th>VVS Wholesale (20% off)</th>
+    </tr>
+    <tr><td>0.7–0.9</td><td>$525</td><td>$575</td><td>$420</td><td>$460</td></tr>
+    <tr><td>1.0</td><td>$540</td><td>$590</td><td>$432</td><td>$472</td></tr>
+    <!-- Add all melee rows -->
+  </table>
+
+  <h2>3. Rough Uncut Lab-Grown CVD Diamonds (D-F Color, VS–VVS Clarity)</h2>
+  <table>
+    <tr>
+      <th>Size / Carat</th>
+      <th>Retail Price (each)</th>
+      <th>Wholesale Price (20% off)</th>
+    </tr>
+    <tr><td>4-5 ct (7x7 mm)</td><td>$600</td><td>$480</td></tr>
+    <tr><td>5-6 ct (8x8 mm)</td><td>$900</td><td>$720</td></tr>
+    <tr><td>7-8 ct (9x9 mm)</td><td>$1,500</td><td>$1,200</td></tr>
+    <tr><td>9.5-10 ct (10x10 mm)</td><td>$3,000</td><td>$2,400</td></tr>
+  </table>
+
+</body>
+</html>
