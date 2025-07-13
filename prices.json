@@ -1,0 +1,45 @@
+[
+  {
+    "id": "diamond-0.5-si1",
+    "name": "0.5ct SI1 (With Cert)",
+    "retail": 350,
+    "wholesale": 280
+  },
+  {
+    "id": "diamond-0.5-vs2",
+    "name": "0.5ct VS2 (With Cert)",
+    "retail": 400,
+    "wholesale": 320
+  },
+  {
+    "id": "diamond-0.5-si1-nocert",
+    "name": "0.5ct SI1 (No Cert)",
+    "retail": 250,
+    "wholesale": 200
+  },
+  {
+    "id": "diamond-0.5-vs2-nocert",
+    "name": "0.5ct VS2 (No Cert)",
+    "retail": 300,
+    "wholesale": 240
+  },
+  {
+    "id": "diamond-1.0-vvs1",
+    "name": "1.0ct VVS1 (With Cert)",
+    "retail": 1200,
+    "wholesale": 960
+  },
+  {
+    "id": "diamond-2.0-vs1",
+    "name": "2.0ct VS1 (With Cert)",
+    "retail": 2500,
+    "wholesale": 2000
+  },
+  {
+    "id": "diamond-3.0-vs1",
+    "name": "3.0ct VS1 (With Cert)",
+    "retail": 3900,
+    "wholesale": 3120
+  }
+]
+
