@@ -2,83 +2,205 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Opulent Jewelers Final Diamond Prices</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Opulent Jewelers - Full Price List</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #fafafa; color: #222; }
-    h1, h2 { color: #004080; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 40px; background: white; }
-    th, td { border: 1px solid #999; padding: 10px 15px; text-align: center; }
-    th { background-color: #e0e7f3; }
-    tr:hover { background-color: #f1f6fb; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #222;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+      font-size: 14px;
+      background: white;
+      box-shadow: 0 0 10px #ccc;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #222;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    tbody tr:hover {
+      background-color: #f0f0f0;
+    }
+    .section-header {
+      background-color: #444;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: left;
+      padding-left: 10px;
+    }
   </style>
 </head>
 <body>
+  <h1>Opulent Jewelers Price List</h1>
 
-  <h1>Opulent Jewelers Final Diamond Prices</h1>
-
-  <h2>1. Polished Diamonds (With & Without Certificate)</h2>
+  <!-- Polished Diamonds -->
+  <h2>Polished Diamonds (With &amp; Without Certificate)</h2>
   <table>
     <thead>
       <tr>
         <th>Carat</th>
         <th>Clarity</th>
         <th>With Certificate (Retail)</th>
-        <th>With Certificate (Wholesale)</th>
+        <th>With Certificate (Wholesale 20% off)</th>
         <th>Without Certificate (Retail)</th>
-        <th>Without Certificate (Wholesale)</th>
+        <th>Without Certificate (Wholesale 20% off)</th>
       </tr>
     </thead>
-    <tbody>
-      <tr><td>0.5</td><td>SI1</td><td>$500</td><td>$400</td><td>$250</td><td>$200</td></tr>
-      <tr><td>1.0</td><td>SI1</td><td>$600</td><td>$480</td><td>$350</td><td>$280</td></tr>
-      <tr><td>1.5</td><td>SI1</td><td>$800</td><td>$640</td><td>$450</td><td>$360</td></tr>
-      <tr><td>2.0</td><td>SI1</td><td>$1,100</td><td>$880</td><td>$600</td><td>$480</td></tr>
-      <tr><td>3.0</td><td>SI1</td><td>$1,800</td><td>$1,440</td><td>$950</td><td>$760</td></tr>
-
-      <tr><td>0.5</td><td>VS2</td><td>$400</td><td>$320</td><td>$300</td><td>$240</td></tr>
-      <tr><td>0.5</td><td>VS1</td><td>$450</td><td>$360</td><td>$350</td><td>$280</td></tr>
-      <tr><td>0.5</td><td>VVS2</td><td>$500</td><td>$400</td><td>$400</td><td>$320</td></tr>
-      <tr><td>0.5</td><td>VVS1</td><td>$550</td><td>$440</td><td>$450</td><td>$360</td></tr>
-
-      <tr><td>1.0</td><td>VS2</td><td>$900</td><td>$720</td><td>$500</td><td>$400</td></tr>
-      <tr><td>1.0</td><td>VS1</td><td>$900</td><td>$720</td><td>$400</td><td>$320</td></tr>
-      <tr><td>1.0</td><td>VVS2</td><td>$1,000</td><td>$800</td><td>$600</td><td>$480</td></tr>
-      <tr><td>1.0</td><td>VVS1</td><td>$1,100</td><td>$880</td><td>$650</td><td>$520</td></tr>
-
-      <tr><td>1.5</td><td>VS2</td><td>$1,250</td><td>$1,000</td><td>$700</td><td>$560</td></tr>
-      <tr><td>1.5</td><td>VS1</td><td>$1,300</td><td>$1,040</td><td>$750</td><td>$600</td></tr>
-      <tr><td>1.5</td><td>VVS2</td><td>$1,400</td><td>$1,120</td><td>$850</td><td>$680</td></tr>
-      <tr><td>1.5</td><td>VVS1</td><td>$1,500</td><td>$1,200</td><td>$900</td><td>$720</td></tr>
-
-      <tr><td>2.0</td><td>VS2</td><td>$1,900</td><td>$1,520</td><td>$1,100</td><td>$880</td></tr>
-      <tr><td>2.0</td><td>VS1</td><td>$2,000</td><td>$1,600</td><td>$1,200</td><td>$960</td></tr>
-      <tr><td>2.0</td><td>VVS2</td><td>$2,200</td><td>$1,760</td><td>$1,400</td><td>$1,120</td></tr>
-      <tr><td>2.0</td><td>VVS1</td><td>$2,400</td><td>$1,920</td><td>$1,600</td><td>$1,280</td></tr>
-
-      <tr><td>3.0</td><td>VS2</td><td>$3,000</td><td>$2,400</td><td>$1,600</td><td>$1,280</td></tr>
-      <tr><td>3.0</td><td>VS1</td><td>$3,200</td><td>$2,560</td><td>$1,800</td><td>$1,440</td></tr>
-      <tr><td>3.0</td><td>VVS2</td><td>$3,500</td><td>$2,800</td><td>$2,000</td><td>$1,600</td></tr>
-      <tr><td>3.0</td><td>VVS1</td><td>$3,800</td><td>$3,040</td><td>$2,200</td><td>$1,760</td></tr>
-    </tbody>
+    <tbody id="polished-body"></tbody>
   </table>
 
-  <h2>2. Tiny Melee Diamonds (Polished) — Per Carat</h2>
+  <!-- Rough Uncut Diamonds -->
+  <h2>Rough Uncut Lab-Grown CVD Diamonds</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Size (Carat)</th>
+        <th>Dimensions (mm)</th>
+        <th>Retail Price</th>
+        <th>Wholesale Price</th>
+      </tr>
+    </thead>
+    <tbody id="rough-body"></tbody>
+  </table>
+
+  <!-- Tiny Melee Diamonds -->
+  <h2>Tiny Melee Diamonds (Polished per Carat)</h2>
   <table>
     <thead>
       <tr>
         <th>Size (mm)</th>
         <th>VS Retail</th>
         <th>VVS Retail</th>
-        <th>VS Wholesale (20% off)</th>
-        <th>VVS Wholesale (20% off)</th>
+        <th>VS Wholesale</th>
+        <th>VVS Wholesale</th>
       </tr>
     </thead>
-    <tbody>
-      <tr><td>0.7–0.9</td><td>$525</td><td>$575</td><td>$420</td><td>$460</td></tr>
-      <tr><td>1.0</td><td>$540</td><td>$590</td><td>$432</td><td>$472</td></tr>
-      <tr><td>1.1</td><td>$550</td><td>$600</td><td>$440</td><td>$480</td></tr>
-      <tr><td>1.2</td><td>$565</td><td>$615</td><td>$452</td><td>$492</td></tr>
-      <tr><td>1.25</td><td>$580</td><td>$630</td><td>$464</td><td>$504</td></tr>
-      <tr><td>1.3</td><td>$600</td><td>$650</td><td>$480</td><td>$520</td></tr>
-      <tr><td>1.4</td><td>$615</td><td>$670</td><td>$492</td><td>$536</td></tr>
-      <tr><td>1.5</td><td>$635</td><td>$685</td><td>$508</td><td>$548</td></tr>
+    <tbody id="melee-body"></tbody>
+  </table>
+
+  <script>
+    // Polished Diamonds data
+    const polishedDiamonds = [
+      {carat: '0.5', clarity: 'SI1', withCertRetail: '$350', withCertWholesale: '$280', withoutCertRetail: '$250', withoutCertWholesale: '$200'},
+      {carat: '0.5', clarity: 'VS2', withCertRetail: '$400', withCertWholesale: '$320', withoutCertRetail: '$300', withoutCertWholesale: '$240'},
+      {carat: '0.5', clarity: 'VS1', withCertRetail: '$450', withCertWholesale: '$360', withoutCertRetail: '$350', withoutCertWholesale: '$280'},
+      {carat: '0.5', clarity: 'VVS2', withCertRetail: '$500', withCertWholesale: '$400', withoutCertRetail: '$400', withoutCertWholesale: '$320'},
+      {carat: '0.5', clarity: 'VVS1', withCertRetail: '$550', withCertWholesale: '$440', withoutCertRetail: '$450', withoutCertWholesale: '$360'},
+
+      {carat: '1.0', clarity: 'SI1', withCertRetail: '$600', withCertWholesale: '$480', withoutCertRetail: '$350', withoutCertWholesale: '$280'},
+      {carat: '1.0', clarity: 'VS2', withCertRetail: '$900', withCertWholesale: '$720', withoutCertRetail: '$500', withoutCertWholesale: '$400'},
+      {carat: '1.0', clarity: 'VS1', withCertRetail: '$900', withCertWholesale: '$720', withoutCertRetail: '$400', withoutCertWholesale: '$320'},
+      {carat: '1.0', clarity: 'VVS2', withCertRetail: '$1000', withCertWholesale: '$800', withoutCertRetail: '$600', withoutCertWholesale: '$480'},
+      {carat: '1.0', clarity: 'VVS1', withCertRetail: '$1100', withCertWholesale: '$880', withoutCertRetail: '$650', withoutCertWholesale: '$520'},
+
+      {carat: '1.5', clarity: 'SI1', withCertRetail: '$800', withCertWholesale: '$640', withoutCertRetail: '$450', withoutCertWholesale: '$360'},
+      {carat: '1.5', clarity: 'VS2', withCertRetail: '$1250', withCertWholesale: '$1000', withoutCertRetail: '$700', withoutCertWholesale: '$560'},
+      {carat: '1.5', clarity: 'VS1', withCertRetail: '$1300', withCertWholesale: '$1040', withoutCertRetail: '$750', withoutCertWholesale: '$600'},
+      {carat: '1.5', clarity: 'VVS2', withCertRetail: '$1400', withCertWholesale: '$1120', withoutCertRetail: '$850', withoutCertWholesale: '$680'},
+      {carat: '1.5', clarity: 'VVS1', withCertRetail: '$1500', withCertWholesale: '$1200', withoutCertRetail: '$900', withoutCertWholesale: '$720'},
+
+      {carat: '2.0', clarity: 'SI1', withCertRetail: '$1100', withCertWholesale: '$880', withoutCertRetail: '$600', withoutCertWholesale: '$480'},
+      {carat: '2.0', clarity: 'VS2', withCertRetail: '$1900', withCertWholesale: '$1520', withoutCertRetail: '$1100', withoutCertWholesale: '$880'},
+      {carat: '2.0', clarity: 'VS1', withCertRetail: '$2000', withCertWholesale: '$1600', withoutCertRetail: '$1200', withoutCertWholesale: '$960'},
+      {carat: '2.0', clarity: 'VVS2', withCertRetail: '$2200', withCertWholesale: '$1760', withoutCertRetail: '$1400', withoutCertWholesale: '$1120'},
+      {carat: '2.0', clarity: 'VVS1', withCertRetail: '$2400', withCertWholesale: '$1920', withoutCertRetail: '$1600', withoutCertWholesale: '$1280'},
+
+      {carat: '3.0', clarity: 'SI1', withCertRetail: '$1800', withCertWholesale: '$1440', withoutCertRetail: '$950', withoutCertWholesale: '$760'},
+      {carat: '3.0', clarity: 'VS2', withCertRetail: '$3000', withCertWholesale: '$2400', withoutCertRetail: '$1600', withoutCertWholesale: '$1280'},
+      {carat: '3.0', clarity: 'VS1', withCertRetail: '$3200', withCertWholesale: '$2560', withoutCertRetail: '$1800', withoutCertWholesale: '$1440'},
+      {carat: '3.0', clarity: 'VVS2', withCertRetail: '$3500', withCertWholesale: '$2800', withoutCertRetail: '$2000', withoutCertWholesale: '$1600'},
+      {carat: '3.0', clarity: 'VVS1', withCertRetail: '$3800', withCertWholesale: '$3040', withoutCertRetail: '$2200', withoutCertWholesale: '$1760'}
+    ];
+
+    const polishedBody = document.getElementById('polished-body');
+    polishedDiamonds.forEach(d => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${d.carat}</td>
+        <td>${d.clarity}</td>
+        <td>${d.withCertRetail}</td>
+        <td>${d.withCertWholesale}</td>
+        <td>${d.withoutCertRetail}</td>
+        <td>${d.withoutCertWholesale}</td>
+      `;
+      polishedBody.appendChild(tr);
+    });
+
+    // Rough diamonds data
+    const roughDiamonds = [
+      { size: '4–5ct', dimensions: '7x7mm', retail: '$600', wholesale: '$480' },
+      { size: '5–6ct', dimensions: '8x8mm', retail: '$900', wholesale: '$720' },
+      { size: '7–8ct', dimensions: '9x9mm', retail: '$1500', wholesale: '$1200' },
+      { size: '9.5–10ct', dimensions: '10x10mm', retail: '$3000', wholesale: '$2400' }
+    ];
+
+    const roughBody = document.getElementById('rough-body');
+    roughDiamonds.forEach(d => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${d.size}</td>
+        <td>${d.dimensions}</td>
+        <td>${d.retail}</td>
+        <td>${d.wholesale}</td>
+      `;
+      roughBody.appendChild(tr);
+    });
+
+    // Tiny melee diamonds data
+    const meleeDiamonds = [
+      { size: '0.7–0.9mm', vsRetail: '$525', vvsRetail: '$575', vsWholesale: '$420', vvsWholesale: '$460' },
+      { size: '1.0mm', vsRetail: '$540', vvsRetail: '$590', vsWholesale: '$432', vvsWholesale: '$472' },
+      { size: '1.1mm', vsRetail: '$550', vvsRetail: '$600', vsWholesale: '$440', vvsWholesale: '$480' },
+      { size: '1.2mm', vsRetail: '$565', vvsRetail: '$615', vsWholesale: '$452', vvsWholesale: '$492' },
+      { size: '1.25mm', vsRetail: '$580', vvsRetail: '$630', vsWholesale: '$464', vvsWholesale: '$504' },
+      { size: '1.3mm', vsRetail: '$600', vvsRetail: '$650', vsWholesale: '$480', vvsWholesale: '$520' },
+      { size: '1.4mm', vsRetail: '$615', vvsRetail: '$670', vsWholesale: '$492', vvsWholesale: '$536' },
+      { size: '1.5mm', vsRetail: '$635', vvsRetail: '$685', vsWholesale: '$508', vvsWholesale: '$548' },
+      { size: '1.6mm', vsRetail: '$650', vvsRetail: '$700', vsWholesale: '$520', vvsWholesale: '$560' },
+      { size: '1.7mm', vsRetail: '$665', vvsRetail: '$720', vsWholesale: '$532', vvsWholesale: '$576' },
+      { size: '1.8mm', vsRetail: '$680', vvsRetail: '$740', vsWholesale: '$544', vvsWholesale: '$592' },
+      { size: '1.9mm', vsRetail: '$705', vvsRetail: '$765', vsWholesale: '$564', vvsWholesale: '$612' },
+      { size: '2.0mm', vsRetail: '$725', vvsRetail: '$785', vsWholesale: '$580', vvsWholesale: '$628' },
+      { size: '2.1mm', vsRetail: '$750', vvsRetail: '$810', vsWholesale: '$600', vvsWholesale: '$648' },
+      { size: '2.2mm', vsRetail: '$775', vvsRetail: '$830', vsWholesale: '$620', vvsWholesale: '$664' },
+      { size: '2.3mm', vsRetail: '$800', vvsRetail: '$860', vsWholesale: '$640', vvsWholesale: '$688' },
+      { size: '2.4mm', vsRetail: '$825', vvsRetail: '$900', vsWholesale: '$660', vvsWholesale: '$720' },
+      { size: '2.5mm', vsRetail: '$840', vvsRetail: '$935', vsWholesale: '$672', vvsWholesale: '$748' },
+      { size: '2.6mm', vsRetail: '$875', vvsRetail: '$965', vsWholesale: '$700', vvsWholesale: '$772' },
+      { size: '2.75mm', vsRetail: '$900', vvsRetail: '$1025', vsWholesale: '$720', vvsWholesale: '$820' },
+      { size: '2.9mm', vsRetail: '$1000', vvsRetail: '$1100', vsWholesale: '$800', vvsWholesale: '$880' },
+      { size: '3.0mm', vsRetail: '$1100', vvsRetail: '$1175', vsWholesale: '$880', vvsWholesale: '$940' }
+    ];
+
+    const meleeBody = document.getElementById('melee-body');
+    meleeDiamonds.forEach(d => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${d.size}</td>
+        <td>${d.vsRetail}</td>
+        <td>${d.vvsRetail}</td>
+        <td>${d.vsWholesale}</td>
+        <td>${d.vvsWholesale}</td>
+      `;
+      meleeBody.appendChild(tr);
+    });
+  </script>
+</body>
+</html>
