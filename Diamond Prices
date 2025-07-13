@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Opulent Jewelers - Final Diamond Prices</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Opulent Jewelers - Diamond Prices</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f8f9fa;
-      margin: 0;
+      font-family: Arial, sans-serif;
       padding: 20px;
+      background-color: #fdfdfd;
     }
     h1 {
       text-align: center;
@@ -18,69 +17,53 @@
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-bottom: 40px;
-      background: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-top: 20px;
     }
     th, td {
-      border: 1px solid #dee2e6;
-      padding: 8px;
+      border: 1px solid #ccc;
+      padding: 10px;
       text-align: center;
-      font-size: 14px;
     }
     th {
-      background-color: #343a40;
-      color: white;
+      background-color: #f2f2f2;
     }
-    caption {
-      font-weight: bold;
-      margin: 10px 0;
-      font-size: 18px;
+    .section-title {
+      margin-top: 40px;
+      color: #222;
     }
   </style>
 </head>
 <body>
+  <h1>Opulent Jewelers - Diamond Price List</h1>
 
-  <h1>Opulent Jewelers - Final Diamond Prices</h1>
-
+  <h2 class="section-title">Polished Diamonds (With & Without Certificate)</h2>
   <table>
-    <caption>Polished Diamonds (With & Without Certificate)</caption>
     <thead>
       <tr>
-        <th>Carat</th>
-        <th>Clarity</th>
-        <th>With Cert (Retail)</th>
-        <th>With Cert (Wholesale)</th>
-        <th>Without Cert (Retail)</th>
-        <th>Without Cert (Wholesale)</th>
+        <th>Carat</th><th>Clarity</th><th>Retail (Cert)</th><th>Wholesale (Cert)</th><th>Retail (No Cert)</th><th>Wholesale (No Cert)</th>
       </tr>
     </thead>
     <tbody>
-      <!-- 0.5ct -->
       <tr><td>0.5</td><td>SI1</td><td>$350</td><td>$280</td><td>$250</td><td>$200</td></tr>
       <tr><td>0.5</td><td>VS2</td><td>$400</td><td>$320</td><td>$300</td><td>$240</td></tr>
       <tr><td>0.5</td><td>VS1</td><td>$450</td><td>$360</td><td>$350</td><td>$280</td></tr>
       <tr><td>0.5</td><td>VVS2</td><td>$500</td><td>$400</td><td>$400</td><td>$320</td></tr>
       <tr><td>0.5</td><td>VVS1</td><td>$550</td><td>$440</td><td>$450</td><td>$360</td></tr>
-      <!-- 1.0ct -->
       <tr><td>1.0</td><td>SI1</td><td>$600</td><td>$480</td><td>$350</td><td>$280</td></tr>
       <tr><td>1.0</td><td>VS2</td><td>$900</td><td>$720</td><td>$500</td><td>$400</td></tr>
       <tr><td>1.0</td><td>VS1</td><td>$900</td><td>$720</td><td>$400</td><td>$320</td></tr>
       <tr><td>1.0</td><td>VVS2</td><td>$1000</td><td>$800</td><td>$600</td><td>$480</td></tr>
       <tr><td>1.0</td><td>VVS1</td><td>$1100</td><td>$880</td><td>$650</td><td>$520</td></tr>
-      <!-- 1.5ct -->
       <tr><td>1.5</td><td>SI1</td><td>$800</td><td>$640</td><td>$450</td><td>$360</td></tr>
       <tr><td>1.5</td><td>VS2</td><td>$1250</td><td>$1000</td><td>$700</td><td>$560</td></tr>
       <tr><td>1.5</td><td>VS1</td><td>$1300</td><td>$1040</td><td>$750</td><td>$600</td></tr>
       <tr><td>1.5</td><td>VVS2</td><td>$1400</td><td>$1120</td><td>$850</td><td>$680</td></tr>
       <tr><td>1.5</td><td>VVS1</td><td>$1500</td><td>$1200</td><td>$900</td><td>$720</td></tr>
-      <!-- 2.0ct -->
       <tr><td>2.0</td><td>SI1</td><td>$1100</td><td>$880</td><td>$600</td><td>$480</td></tr>
       <tr><td>2.0</td><td>VS2</td><td>$1900</td><td>$1520</td><td>$1100</td><td>$880</td></tr>
       <tr><td>2.0</td><td>VS1</td><td>$2000</td><td>$1600</td><td>$1200</td><td>$960</td></tr>
       <tr><td>2.0</td><td>VVS2</td><td>$2200</td><td>$1760</td><td>$1400</td><td>$1120</td></tr>
       <tr><td>2.0</td><td>VVS1</td><td>$2400</td><td>$1920</td><td>$1600</td><td>$1280</td></tr>
-      <!-- 3.0ct -->
       <tr><td>3.0</td><td>SI1</td><td>$1800</td><td>$1440</td><td>$950</td><td>$760</td></tr>
       <tr><td>3.0</td><td>VS2</td><td>$3000</td><td>$2400</td><td>$1600</td><td>$1280</td></tr>
       <tr><td>3.0</td><td>VS1</td><td>$3200</td><td>$2560</td><td>$1800</td><td>$1440</td></tr>
@@ -89,13 +72,11 @@
     </tbody>
   </table>
 
+  <h2 class="section-title">Rough Lab-Grown Diamonds (Uncut)</h2>
   <table>
-    <caption>Rough Lab-Grown CVD Diamonds</caption>
     <thead>
       <tr>
-        <th>Size</th>
-        <th>Retail</th>
-        <th>Wholesale</th>
+        <th>Size</th><th>Retail</th><th>Wholesale</th>
       </tr>
     </thead>
     <tbody>
@@ -106,5 +87,25 @@
     </tbody>
   </table>
 
+  <h2 class="section-title">Polished Melee Diamonds (Per Carat)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Size (mm)</th><th>VS Retail</th><th>VVS Retail</th><th>VS Wholesale</th><th>VVS Wholesale</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1.2mm</td><td>$565</td><td>$615</td><td>$452</td><td>$492</td></tr>
+      <tr><td>1.25mm</td><td>$580</td><td>$630</td><td>$464</td><td>$504</td></tr>
+      <tr><td>1.3mm</td><td>$600</td><td>$650</td><td>$480</td><td>$520</td></tr>
+      <tr><td>1.4mm</td><td>$615</td><td>$670</td><td>$492</td><td>$536</td></tr>
+      <tr><td>1.5mm</td><td>$635</td><td>$685</td><td>$508</td><td>$548</td></tr>
+      <tr><td>1.6mm</td><td>$650</td><td>$700</td><td>$520</td><td>$560</td></tr>
+      <tr><td>1.7mm</td><td>$665</td><td>$720</td><td>$532</td><td>$576</td></tr>
+      <tr><td>1.8mm</td><td>$680</td><td>$740</td><td>$544</td><td>$592</td></tr>
+      <tr><td>1.9mm</td><td>$705</td><td>$765</td><td>$564</td><td>$612</td></tr>
+      <tr><td>2.0mm</td><td>$725</td><td>$785</td><td>$580</td><td>$628</td></tr>
+    </tbody>
+  </table>
 </body>
 </html>
