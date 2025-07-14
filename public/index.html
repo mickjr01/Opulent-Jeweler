@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Opulent Jewelers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #eee;
+    }
+    input[type="number"], input[type="email"] {
+      width: 80px;
+      padding: 6px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #222;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+  <h1>Opulent Jewelers Price List</h1>
+  <form id="checkout-form">
+    <table>
+      <thead>
+        <tr>
+          <th>Diamond</th>
+          <th>Retail Price</th>
+          <th>Wholesale Price (Min 5)</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody id="price-table-body">
+        <!-- JS will load rows here -->
+      </tbody>
+    </table>
+    <label>
+      Email:
+      <input type="email" id="email" required />
+    </label>
+    <button type="submit">Checkout</button>
+  </form>
+
+  <script>
+    const tableBody = document.getElementById('price-table-body');
+    const form = document.getElementById('checkout-form');
+
+    // Load price list from /prices endpoint
+    fetch('/prices')
+      .then(res => res.json())
+      .then(prices => {
+        prices.forEach(product => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${product.name}</td>
+            <td>$${product.retail.toFixed(2)}</td>
+            <td>$${product.wholesale.toFixed(2)}</td>
+            <td>
+              <input type="number" name="qty-${product.id}" min="0" value="0" />
+            </td>
+          `;
+          tableBody.appendChild(row);
+        });
+      });
+
+    // Handle form submit
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      const inputs = form.querySelectorAll('input[type="number"]');
+      const cart = [];
+
+      inputs.forEach(input => {
+        const quantity = parseInt(input.value);
+        if (quantity > 0) {
+          const id = input.name.replace('qty-', '');
+          cart.push({ id, quantity });
+        }
+      });
+
+      const email = document.getElementById('email').value;
+
+      if (cart.length < 1) {
+        alert('Please select at least one item.');
+        return;
+      }
+
+      // You can put your checkout code here later (Stripe, etc.)
+      alert(`Checkout not implemented yet.\nCart: ${JSON.stringify(cart)}\nEmail: ${email}`);
+    });
+  </script>
+</body>
+</html>
+

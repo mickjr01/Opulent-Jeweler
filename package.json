@@ -8,11 +8,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "stripe": "^18.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickjr01/opulent-jeweler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mickjr01/opulent-jeweler/issues"
+  },
+  "homepage": "https://github.com/mickjr01/opulent-jeweler#readme",
+  "description": ""
 }
-
